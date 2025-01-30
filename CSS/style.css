@@ -271,3 +271,49 @@ header .navbar #luccode{
     font-size: 1.3rem;
     color: #FFFF;
 }
+
+/* SECTION CERTIFICADOS */
+
+.certificados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #DAD7CD;
+}
+
+.certificados h1 {
+    font-size: 3.5rem;
+    font-family: 'Bentham', sans-serif;
+    color: #344E41;
+}
+
+.certificado-linha {
+    display: flex;
+    flex-direction: row;
+}
+
+#card-certificado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 12rem;
+    margin: 3rem;
+}
+
+#card-certificado h3 {
+    align-self: center;
+    font-family: 'Bentham', sans-serif;
+    font-size: 1.5rem;
+    color: #344E41;
+}
+
+#img-certificado {
+    width: 14rem;
+    height: 8rem;
+    margin-top: 0.4rem;
+    background-color: #059C50;
+}
+
+/* SECTION CONTATO */
