@@ -6,6 +6,19 @@
     <title>Lucca's Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="IMGS/sylveon.png"/>
     <link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "RSeOZr1BbgS-yRPlk",
+            });
+        })();
+    </script>
+
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- COMEÇO DA HEADER -->
@@ -205,10 +218,23 @@
     <!-- FIM DO SECTION CERTIFICADOS -->
 
     <!-- COMEÇO DO SECTION CONTATO -->
-    <section class="contato">
-        
+    <section class="contato" id="contato">
+        <h1>SE INTERESSOU?</h1>
+        <h2>Entre em contato</h2>
+        <div class="row">
+            <div class="contato-info">
+                <form action="">
+                    <input id="name" type="text" placeholder="Seu nome" class="box">
+                    <input id="email" type="email" placeholder="Seu melhor E-Mail" class="box">
+                    <input id="subject" type="text" placeholder="Assunto" class="box">
+                    <textarea id="message" name="" class="box" id="mensagem" placeholder="Deixe aqui sua mensagem" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar" onclick="sendEmail()" id="btn-enviar">
+                </form>
+            </div>
+            <img id="leafeon-img" src="IMGS/teste img.png" alt="leafon">
+        </div>
     </section>
-    <!-- FIM DO SECTION CONTATO -->
+    <!-- FIM DO SECTION CONTATO --> 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
