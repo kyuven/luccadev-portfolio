@@ -152,38 +152,48 @@ header .navbar #luccode{
 
 .sobre p {
     font-size: 2.2rem;
+    margin-top: 1rem;
     font-family: 'Bentham', sans-serif;
     text-align: justify;
     line-height: 2.3rem;
     color: #344E41;
 }
 
+#txt-exp {
+    font-size: 3rem;
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #059C50;
+    margin-top: 2rem;
+}
+
 .content-sobre {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
-    margin-top: 2rem;
     justify-content: space-between;
 }
 
 .img {
     width: 95%;
-    height: 50vh;
+    height: 40vh;
     background:url(../IMGS/Lucca\ Dalosto\ Foto.jpeg);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     border-radius: 24px;
+    margin-top: 0.5rem;
 }
 
 .resumo {
-    height: 60vh;
+    height: 40vh;
     margin-left: 2rem;
     font-family: 'Bentham', sans-serif;
 }
 
 .resumo span {
     color: #059C50;
+    font-family: 'Bentham', sans-serif;
+    font-size: 2.2rem;
 }
 
 .resumo ul {
@@ -193,7 +203,9 @@ header .navbar #luccode{
 
 .resumo li {
     font-family: 'Bentham', sans-serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 3rem;
     color: #059C50;
 }
+
+/* SECTION PROJECTS */
