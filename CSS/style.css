@@ -12,7 +12,6 @@
 }
 
 header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -20,9 +19,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(52, 78, 65, .6);
+    background-color: #344E41;
     z-index: 1000;
 }
+
+/* GENERAL */
 
 section {
     padding: 1.3rem 2%;
@@ -42,13 +43,36 @@ header .navbar #luccode{
     padding: 0 1rem;
 }
 
+#btn-info {
+    min-width: 10rem;
+    min-height: 3.2rem;
+    margin-top: 10px;
+    margin-right: 16px;
+    background-color: rgba(52, 78, 65, .45);
+    border-radius: 12px;
+    font-family: 'Bentham', sans-serif;
+    font-size: 1.3rem;
+    color: #FFFF;
+}
+
+#btn-info2 {
+    min-width: 10rem;
+    min-height: 3.2rem;
+    margin-top: 10px;
+    background-color: rgba(218, 215, 205, .45);
+    border-radius: 12px;
+    font-family: 'Bentham', sans-serif;
+    font-size: 1.3rem;
+    color: #FFFF;
+}
+
+/* SECTION MAIN */
+
 .main {
     display: flex;
     align-items: center;
     min-height: 100vh;
     background-color: #588157;
-    background-size: cover;
-    background-position: center;
 }
 
 .content-main {
@@ -98,25 +122,78 @@ header .navbar #luccode{
     flex-direction: row;
 }
 
-#btn-info {
-    min-width: 10rem;
-    min-height: 3.2rem;
-    margin-top: 10px;
-    margin-right: 16px;
-    background-color: rgba(52, 78, 65, .45);
-    border-radius: 12px;
-    font-family: 'Bentham', sans-serif;
-    font-size: 1.3rem;
-    color: #FFFF;
+/* SECTION SOBRE*/
+
+.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #DAD7CD;
 }
 
-#btn-info2 {
-    min-width: 10rem;
-    min-height: 3.2rem;
-    margin-top: 10px;
-    background-color: rgba(218, 215, 205, .45);
-    border-radius: 12px;
+.sobre h1 {
+    font-size: 3.5rem;
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #344E41;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #344E41;
+}
+
+.sobre h3 {
+    font-size: 3rem;
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #059C50;
+}
+
+.sobre p {
+    font-size: 2.2rem;
     font-family: 'Bentham', sans-serif;
-    font-size: 1.3rem;
-    color: #FFFF;
+    text-align: justify;
+    line-height: 2.3rem;
+    color: #344E41;
+}
+
+.content-sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.img {
+    width: 95%;
+    height: 50vh;
+    background:url(../IMGS/Lucca\ Dalosto\ Foto.jpeg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    border-radius: 24px;
+}
+
+.resumo {
+    height: 60vh;
+    margin-left: 2rem;
+    font-family: 'Bentham', sans-serif;
+}
+
+.resumo span {
+    color: #059C50;
+}
+
+.resumo ul {
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+}
+
+.resumo li {
+    font-family: 'Bentham', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #059C50;
 }
