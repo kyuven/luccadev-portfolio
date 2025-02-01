@@ -252,10 +252,9 @@ header .navbar #luccode{
     background-color: var(--light_green);
 }
 
-#img-card {
+#img-card img {
     width: 8rem;
     height: 8rem;
-    background-color: aqua;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -328,6 +327,13 @@ header .navbar #luccode{
     height: 8rem;
     margin-top: 0.4rem;
     background-color: var(--glow_green);
+}
+
+#img-certificado:hover {
+    transition: .6s;
+    transform-origin: center;
+    transform: scale(2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* SECTION CONTATO */
