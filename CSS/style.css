@@ -309,7 +309,7 @@ header .navbar #luccode{
     align-items: center;
     width: auto;
     height: 12rem;
-    margin: 3rem;
+    margin: 1.3rem;
 }
 
 #card-certificado h3 {
@@ -319,18 +319,17 @@ header .navbar #luccode{
     color: var(--dark_green);
 }
 
-#img-certificado {
+#img-certificado img {
     width: 14rem;
     height: 8rem;
     margin-top: 0.4rem;
-    background-color: var(--glow_green);
 }
 
 #img-certificado:hover {
     transition: .6s;
     transform-origin: center;
-    transform: scale(2);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(2.7);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /* SECTION CONTATO */
@@ -517,9 +516,16 @@ header .navbar #luccode{
         margin: 1rem 0;
     }
 
-    #img-certificado {
-        width: 100%;
-        height: auto;
+    #img-certificado img {
+        width: 14rem;
+        height: 8rem;
+        margin-top: 0.4rem;
+    }
+    
+    #img-certificado:hover {
+        transition: .6s;
+        transform-origin: center;
+        transform: scale(1.8);
     }
 
     /* Contato Section */
@@ -658,10 +664,16 @@ header .navbar #luccode{
         width: 100%;
     }
 
-    #img-certificado {
-        background-color: #059C50;
-        height: 10rem;
-        width: 16rem;
+    #img-certificado img {
+        width: 14rem;
+        height: 8rem;
+        margin-top: 0.4rem;
+    }
+    
+    #img-certificado:hover {
+        transition: .6s;
+        transform-origin: center;
+        transform: scale(1.8);
     }
 
     /* Contato Section */
