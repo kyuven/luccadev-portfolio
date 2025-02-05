@@ -151,7 +151,7 @@ header .navbar #luccode{
 
 .sobre h2 {
     font-size: 2rem;
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: '', sans-serif;
     color: var(--dark_green);
 }
 
@@ -162,19 +162,12 @@ header .navbar #luccode{
 }
 
 .sobre p {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-top: 1rem;
     font-family: 'Bentham', sans-serif;
     text-align: justify;
-    line-height: 2.3rem;
+    line-height: 3.2rem;
     color: var(--dark_green);
-}
-
-#txt-exp {
-    font-size: 3rem;
-    font-family: 'JetBrains Mono', sans-serif;
-    color: var(--glow_green);
-    margin-top: 2rem;
 }
 
 .content-sobre {
@@ -186,7 +179,7 @@ header .navbar #luccode{
 
 .img {
     width: 95%;
-    height: 40vh;
+    height: 36vh;
     background:url(../IMGS/Lucca\ Dalosto\ Foto.jpeg);
     background-size:cover;
     background-position:center;
@@ -217,6 +210,65 @@ header .navbar #luccode{
     font-size: 2.2rem;
     line-height: 3rem;
     color: var(--glow_green);
+}
+
+.row-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-client {
+    background: rgba(52, 78, 65, .45);
+    width: 10rem;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+}
+
+.card-client p {
+    font-size: 2rem;
+    color: #ffff;
+    font-family: "JetBrains Mono", sans-serif;
+}
+  
+.user-picture {
+    overflow: hidden;
+    object-fit: contain;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+  
+.user-picture img {
+    width: 6rem;
+}
+
+.name-client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffff;
+    font-family: "JetBrains Mono", sans-serif;
+}
+  
+.name-client span {
+    display: block;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #ffff;
+    font-family: "JetBrains Mono", sans-serif;
 }
 
 /* SECTION PROJECTS */
