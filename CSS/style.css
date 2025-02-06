@@ -133,6 +133,12 @@ header .navbar #luccode{
     align-items: center;
 }
 
+.btn-main a {
+    font-size: 1.4rem;
+    font-family: 'Bentham', sans-serif;
+    color: #FFFF;
+}
+
 /* SECTION SOBRE*/
 
 .sobre {
